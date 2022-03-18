@@ -1,6 +1,6 @@
 :root {
     --begie: rgb(162, 45, 0);
-    --lightblue: rgb(#2D64E6);
+    --lightblue:(#2D64E6);
   }
 
 
@@ -26,7 +26,7 @@
     display: inline-block;
     border-radius: 40px;
     padding: 9px 32px;
-    background-color: var(--lightblue);
+    background-color: rgb(#2D64E6);
     color: #fff;
     text-decoration: none;
 }
@@ -56,4 +56,21 @@
     width: 100vw;
     height: 670px;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+}
+#game-card{
+    background-color:black;
+}
+#playstationplus{
+    background-color: #C7C4C4;
+}
+#april-ps-plus{
+    float: right;
+    width: 50%;
+}
+#playstationnow{
+    background-color: #1E1F57;
+}
+#avengers{
+    float: right;
+    width: 50%;
 }
