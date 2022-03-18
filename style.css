@@ -34,7 +34,6 @@
     width: 100vw;
     height: 670px;
     background-image: url(./img/jumbo-bg.png);
-
 }
 .jumbo-text-btn{
     position: relative;
@@ -52,4 +51,9 @@
     border: 1px solid blue;
     width: 100%;
     border-radius: 20px;
+}
+#game{
+    width: 100vw;
+    height: 670px;
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
 }
