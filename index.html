@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 
 </head>
 <body>
@@ -20,7 +21,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid" id="nav-container1">
                   <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="play_logo"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -54,10 +55,10 @@
                             <a class="nav-link active" aria-current="page" href="#">My Playstation <i class="fa-solid fa-angle-down"></i></a>
                             </li>
                             <li>
-                            <a href="#"><div class="btn" id="accedibtn">accedi</div></a>
+                                <a href="#"><div class="btn-black" id="accedibtn">accedi</div></a>
                             </li>
-                            <li>
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <li >
+                            <a href="#" style="line-height: 45px; padding-left: 10px;"><i class="fa-solid fa-magnifying-glass" id="glass"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -73,16 +74,19 @@
         <section id="jumbotron">
             <div class="container jumbo-text-btn">
                 <div id="jumbo-wrapper">
+                    <img src="./img/returnal-hero-banner-logo.png" alt="" class="w-25">
                     <h1 class="text-white">rompi il cerchio</h1>
-                    <div class="w-50"><p class="text-white">rialzati dopo ogni sconfitta e affonta una nuova sfida con ogni rinascita in questo esclusivo thrailer fantascientifico. in esclusiva su PS5</p></div>
-                    <a href="#"><div class="btn">acquista ora</div></a>
+                    <div class="w-50" style="height: 108px;"><p class="text-white" id="jumbo-text">rialzati dopo ogni sconfitta e affonta una nuova sfida con ogni rinascita in questo esclusivo thrailer fantascientifico. in esclusiva su PS5</p></div>
+                    <div>
+                        <a href="#"><div class="btn">acquista ora</div></a>
+                    </div>
                 </div>
             </div>    
         </section>
         <section id="Playstation5">
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-sm-6 col-md-4 col-lg-2 mb-5">
+                    <div class="col-sm-6 col-md-4 col-lg-2 mb-5 example">
                         <div class="img-container">
                             <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal" class="w-100">
                         </div>
@@ -124,7 +128,7 @@
                     <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center">
                         <h1>Console Playstation5</h1>
                         <p class="text-muted">sperimenta la nuova generazione di incredibili giochi playstation</p>
-                        <a href="#"><div class="btn">maggiori informazioni</div></a>
+                        <a href="#"><div class="btn-blue">maggiori informazioni</div></a>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <img src="./img/playstation-5-thumb.png" alt="#" class="w-100">
@@ -154,7 +158,7 @@
             <div class="container jumbo-text-btn">
                 <div id="jumbo-wrapper">
                     <h1 class="text-white">un'avventura cooperativa selvaggia ti attende</h1>
-                    <div class="w-50"><p class="text-white">trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p></div>
+                    <div class="w-50" style="min-width: 400px;"><p class="text-white">trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p></div>
                     <a href="#"><div class="btn">acquista ora</div></a>
                 </div>
             </div>   
@@ -278,7 +282,7 @@
             <div class="container text-start">  
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-4">
-                        <div class="card border-white" style="width: 20rem;">
+                        <div class="card border-white pollo" style="width: 20rem;">
                             <img src="./img/ps4-slim-homepage-image-block.jpg" class="card-img-top" alt="ps4">
                             <div class="card-body">
                               <h5 class="card-title">Playstation4</h5>
@@ -288,7 +292,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4">
-                        <div class="card border-white" style="width: 20rem;">
+                        <div class="card border-white pollo" style="width: 20rem;">
                             <img src="./img/double11-202010-tw-psvr.jpg" class="card-img-top" alt="double">
                             <div class="card-body">
                               <h5 class="card-title">Playstation VR</h5>
@@ -298,7 +302,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4">
-                        <div class="card border-white" style="width: 20rem;">
+                        <div class="card border-white pollo" style="width: 20rem;">
                             <img src="./img/dualshock-4-listing-thumb.jpg" class="card-img-top" alt="dual">
                             <div class="card-body">
                               <h5 class="card-title">Accessori</h5>
@@ -311,11 +315,11 @@
             </div>
         </section>
         <section id="playstationplus">
-            <div class="container clearfix d-flex align-items-center ">
-                <div>
+            <div class="container clearfix d-flex align-items-center">
+                <div class=" lol-container1">
                     <img src="./img/ps-plus-logo.png" alt="psplus-logo" class="w-25">
                     <p>migliora la tua esperienza Playstation con l'acceso al multigiocatore online, giochi esclusivi, sconti mensili ed altro ancora</p>
-                    <a href="#" class="btn-blue btn">Esplora PlayStation Plus</a>
+                    <a href="#" class="btn-style1">Esplora PlayStation Plus</a>
                 </div>
                 <img src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="aprilpsplus" id="april-ps-plus">
             </div>
@@ -338,26 +342,30 @@
             </div>
         </section>
         <section id="playstationnow" class="mt-5">
-            <div class="container clearfix d-flex align-items-center">
-                <div>
+            <div class="container clearfix d-flex align-items-center lol-containe2">
+                <div class="psnow-container">
                     <img src="./img/ps-now-logo-two-column.png" alt="sallas" class="w-75 pb-3">
                     <p class="text-white">ottieni l'acceso immediato ad una raccolta vastissima di oltre 800 giochi per PS4 PS3 PS2 o su PC Windows, con nuovi titoli aggiunti ogni mese.</p>
-                    <a href="#" class="btn-blue btn">Esplora PlayStation Now</a>
+                    <a href="#" class="btn-style2">Esplora PlayStation Now</a>
                 </div>
                 <img src="./img/ps-now-april-featured-image-block.png" alt="sos" id="avengers">
             </div>
         </section>
         <section id="social">
-            <div class="container text-center">
+            <div class="container text-center p-5">
                 <h3>seguici sui social media</h3>
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 col-lg-3 justify-content-center ">
-                        <div class="d-flex flex-row"> 
-                            <img src="./img/twitter.jpg" alt="twet" class="w-75">
-                            <img src="./img/facebook.jpg" alt="fb" class="w-75">
-                            <img src="./img/instagram.jpg" alt="ig" class="w-75">
-                            <img src="./img/youtube.png" alt="yt" class="w-75">
-                        </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-3 col-lg-3 pt-5">
+                        <img  src="./img/twitter.jpg" alt="twet" class="w-50">
+                    </div>  
+                    <div class="col-sm-6 col-md-3 col-lg-3 pt-5">
+                        <img src="./img/facebook.jpg" alt="fb" class="w-50">  
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 pt-5">
+                        <img src="./img/instagram.jpg" alt="ig" class="w-50">
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 pt-5">   
+                        <img src="./img/youtube.png" alt="yt" class="w-50">   
                     </div>
                 </div>
             </div>
@@ -366,7 +374,53 @@
     <!--/main-->
     <!--footer-->
     <footer>
-
+        <div class="container">
+            <div class="row py-5">
+                <div class="col">
+                    <img src="./img/ps-footer.svg" alt="footersvg" id="footer-logo"> <br>
+                    <span class="text-white"><i class="fa-solid fa-globe"></i> Country / Region: Italy</span>  <br>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <ul style="min-width: 96px;">
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <ul style="min-width: 96px;">
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <ul style="min-width: 96px;">
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                                <li style="list-style: none;"> <a href="#" class= "text-white"style="text-decoration: none;"> link footer </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col">
+                    <img src="./img/sie-logo.svg" alt="sony-logo" style="width: 150px;">
+                    <div style="max-width: 600px;">
+                        <p class="text-white">Website Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dai rispettivi proprietarti. Tutti i diritti riservati. <a href="#" class="text-white">Maggiori info.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </footer>
     <!--/footer-->
 </body>

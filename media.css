@@ -4,9 +4,39 @@
     }
     
 }
-@media  screen and (min-width: 900px) {
+@media  screen and (max-width: 768px) {
     #april-ps-plus{
         display: none;
     }
-    
+    #avengers{
+        display: none;
+    }
+    .lol-container1{
+        height: 235px;
+        padding-top: 50px;
+    }
+    .lol-container2{
+        height: 335px;
+    }
+    .psnow-container{
+        padding-bottom: 40px;
+    }
+}
+@media  screen and (max-width: 560px) {
+    .pollo img{
+        margin-left: 80px;
+    }
+    #jumbo-text{
+        width: 400px;
+    }
+    .socials-img{
+        
+    }
+}
+
+
+@media  screen and (max-width: 700px) {
+    #nav-container1{
+        min-width: 0;
+    }
 }
