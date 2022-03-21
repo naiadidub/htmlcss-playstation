@@ -18,6 +18,7 @@ a:hover{
     text-decoration: none;
 }
 .btn {
+    border: 1px solid black  ;
     display: inline-block;
     border-radius: 40px;
     padding: 9px 32px;
@@ -26,9 +27,10 @@ a:hover{
     text-decoration: none;
 }
 .btn:hover{
-    border: 2px solid  rgb(162, 45, 0) ;
+    border-color: rgb(162, 45, 0) ;
 }
 .btn-blue {
+    border: 1px solid white;
     display: inline-block;
     border-radius: 40px;
     padding: 9px 32px;
@@ -36,7 +38,11 @@ a:hover{
     color: #fff;
     text-decoration: none;
 }
+.btn-blue:hover{
+    border-color: #2D64E6;
+}
 .btn-black {
+    border: 1px solid white;
     display: inline-block;
     border-radius: 40px;
     padding: 9px 32px;
@@ -44,7 +50,11 @@ a:hover{
     color: #fff;
     text-decoration: none;
 }
+.btn-black:hover{
+    border-color: black;
+}
 .btn-style1{
+    border: 1px solid #C7C4C4;
     display: inline-block;
     border-radius: 40px;
     padding: 9px 32px;
@@ -52,13 +62,20 @@ a:hover{
     color: #2D64E6;
     text-decoration: none;
 }
+.btn-style1:hover{
+    border-color: rgb(167, 167, 167);
+}
 .btn-style2{
+    border: 1px solid #1E1F57;
     display: inline-block;
     border-radius: 40px;
     padding: 9px 32px;
     background-color: white;
     color: black;
     text-decoration: none;
+}
+.btn-style2:hover{
+    border-color: white;
 }
 header{
     position: fixed;
@@ -98,25 +115,24 @@ li i{
     height: 670px;
     background-image: url(./img/jumbo-bg.png);
 }
-.jumbo-text-btn{
-    position: relative;
-}
+
 #jumbo-wrapper{
     max-width: 700px;
-    position: absolute;
-    left: 0;
-    top: 44vh;
 }
-
+.colpadding{
+    padding-top: 370px;
+}
 .img-container img{
     padding: 2px;
     border-radius: 20px;
 }
 .img-container{
+    border: 1px solid white;
     min-width: 164px;
     width: 100%;
     border-radius: 20px;
 }
+
 .img-container:hover{
     border: 1px solid blue;
 }
@@ -148,7 +164,11 @@ footer{
 #footer-logo{
     width: 100px;
 }
-
+.sqweer-hover{
+    width: 198px;
+    height: 198px;
+    background-color: black;
+}
 
 
 
@@ -158,12 +178,12 @@ footer{
 
 
 @keyframes example {
-    from {padding-bottom: 0;}
-    to {padding-bottom: 10px;}
+    from {margin-top: 0;}
+    to {margin-top: -10px;}
   }
   
   /* The element to apply the animation to */
   .img-container:hover{
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 1s;
   }
